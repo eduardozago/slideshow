@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -33,6 +34,17 @@ header {
     height: inherit;
     background-position: center;
     background-size: cover;
+}
+
+.slide-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    box-shadow: 1px 2px 1px #333;
+    font-size: 42px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slider-buttons {
